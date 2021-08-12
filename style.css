@@ -1,0 +1,49 @@
+body {
+  font-family: "Benne", serif;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: 22% 78%;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Navigation */
+
+.navbar-nav {
+  margin-top: 0.5rem;
+}
+
+.container-fluid {
+  height: 100%;
+  background-color: #e6e4e4;
+}
+@media screen and (min-width: 320px) {
+  .container-fluid {
+    min-width: 8rem;
+  }
+  .nav-link {
+    font-size: 85%;
+  }
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  position: relative;
+  width: 100%;
+}
+
+#main-doc {
+  margin: 0rem 1rem 0 5rem;
+}
+
+code {
+  background-color: #c4bfbf;
+  padding: 0.25rem;
+}
